@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">demo</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="login">Login</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="media_player">Media Player</string>
+    <string name="wifi_app">WIFI APP</string>
+    <string name="bluetooth_app">Bluetooth APP</string>
+    <string name="text_to_speech">Text to Speech</string>
+    <string name="calculator">Calculator</string>
+    <string name="todo1">TODO</string>
+    <string name="torch">Torch</string>
+    <string name="torch_app">Torch APP</string>
+    <string name="camera_based_app">Camera Based APP</string>
+    <string name="sensor_based_app">Sensor Based APP</string>
+    <string name="previuos">Previuos</string>
+    <string name="next">Next</string>
+    <string name="todo2">TODO</string>
+    <string name="web_browser">Web Browser</string>
+    <string name="quiz_app">Quiz APP</string>
+    <string name="todo3">TODO</string>
+    <string name="enter_second_number">Enter Second Number</string>
+    <string name="enter_first_number">Enter First Number</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="back">BACK</string>
+    <string name="todo7">TODO</string>
+    <string name="todo8">TODO</string>
+    <string name="back1">BACK</string>
+    <string name="bluetooth_off">Bluetooth OFF</string>
+    <string name="bluetooth_on">Bluetooth ON</string>
+    <string name="bluetooth_appin">Bluetooth APP</string>
+</resources>

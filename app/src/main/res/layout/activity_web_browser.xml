@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".web_browser">
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/browserwall" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Web Browser"
+        android:textAlignment="center"
+        android:textColor="#006064"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="124dp" />
+
+    <WebView
+        android:id="@+id/web"
+        android:layout_width="312dp"
+        android:layout_height="475dp"
+        android:layout_below="@+id/editTextTextPersonName8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"></WebView>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:fontFamily="@font/alegreya_sc"
+        android:hint="https://www.google.com"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="https://www.google.com"
+        android:textAlignment="center"
+        android:textColor="#0097A7"
+        android:textColorHint="#546E7A" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toEndOf="@+id/editTextTextPersonName8"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Search"
+        android:textColor="#006064" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/web"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Back to previous page"
+        android:textColor="#006064" />
+
+</RelativeLayout>

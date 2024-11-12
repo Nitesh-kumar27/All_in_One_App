@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizQ1">
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/quizwall" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Q1. Which one is your national bird"
+        android:textAlignment="center"
+        android:textColor="#FFF30C"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="196dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crow"
+            android:fontFamily="@font/alegreya_sc"
+            android:textStyle="bold"
+            android:textColor="#FFF30C"
+            android:textSize="24sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Owl"
+            android:fontFamily="@font/alegreya_sc"
+            android:textStyle="bold"
+            android:textColor="#FFF30C"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Peacock"
+            android:fontFamily="@font/alegreya_sc"
+            android:textStyle="bold"
+            android:textColor="#FFF30C"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Parrot"
+            android:fontFamily="@font/alegreya_sc"
+            android:textStyle="bold"
+            android:textColor="#FFF30C"
+            android:textSize="24sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button42"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Submit"
+        android:textColor="#006064" />
+
+
+</RelativeLayout>

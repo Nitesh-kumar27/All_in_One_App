@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9f0f1"
+    tools:context=".calculator">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo7"
+        app:srcCompat="@drawable/calwll" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/alegreya_sc"
+        android:hint="@string/enter_first_number"
+        android:inputType="number|text"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColor="#0097A7"
+        android:textColorHint="#546E7A"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/alegreya_sc"
+        android:hint="@string/enter_second_number"
+        android:inputType="number|text"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColor="#00B8D4"
+        android:textColorHint="#546E7A"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:ems="10"
+        android:fontFamily="@font/alegreya_sc"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColor="#F4344B"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/todo5"
+        app:srcCompat="@drawable/divide50" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/multiply50"
+        android:contentDescription="@string/todo4" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="117dp"
+        app:srcCompat="@drawable/plus50"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:contentDescription="@string/todo8" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        app:srcCompat="@drawable/minus50"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:contentDescription="@string/todo6" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="@string/back"
+        android:textColor="#006064" />
+
+
+
+</RelativeLayout>

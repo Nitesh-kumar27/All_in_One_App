@@ -1,0 +1,39 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/font/alegreya_sc.xml" value="0.2760416666666667" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_accelerometersensor.xml" value="0.25" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_bluetooth_app.xml" value="0.25" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_calculator.xml" value="0.264" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_camera_based.xml" value="0.2359375" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_database_update.xml" value="0.25" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_lightsensor.xml" value="0.264" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_media_player.xml" value="0.25" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_my_menu.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_photo.xml" value="0.25" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_quiz_app.xml" value="0.25" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_quiz_q1.xml" value="0.25" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_quiz_q2.xml" value="0.25" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_quiz_q3.xml" value="0.25" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_quiz_result.xml" value="0.25" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_registration.xml" value="0.264" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_sensor_based_app.xml" value="0.2359375" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_text_to_speech.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_thankyou.xml" value="0.25" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_torch_app.xml" value="0.264" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_video.xml" value="0.2359375" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_web_browser.xml" value="0.264" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_welcome_screen.xml" value="0.264" />
+        <entry key="..\:/Users/Sangw/AndroidStudioProjects/demo/app/src/main/res/layout/activity_wifi_app.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sensor_based_app">
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sensorwall" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:drawableStart="@drawable/lamp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Light Sensor"
+        android:textColor="#006064"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:drawableStart="@drawable/tilt"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="ACCELEROMETER"
+        android:textColor="#006064"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="@string/back1"
+        android:textColor="#006064" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:background="#8100B8D4"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Sensor based activity"
+        android:textAlignment="center"
+        android:textColor="#fd4985"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="124dp" />
+
+</RelativeLayout>
